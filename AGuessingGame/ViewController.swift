@@ -9,7 +9,11 @@
 import UIKit
 import AVFoundation
 class ViewController: UIViewController {
+    
     // MARK:properties
+    
+    let targetNumber = Int.random(in: 1...100)
+    
     
     //MARK: Initializers
     
