@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     // MARK:properties
     
+    @IBOutlet weak var submittedGuess: UITextField!
     let targetNumber = Int.random(in: 1...100)
     
     
